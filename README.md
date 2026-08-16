@@ -1,5 +1,7 @@
 # Etsy Perfect Collection Scraper (Etsy Perfect Scraper)
 
+[English](README.md) | [Türkçe](README_TR.md)
+
 A robust, premium Etsy scaper powered by **Playwright** that automatically archives user favorites, extracts high-resolution product designs, and generates clean analytics, complete with an automated video recording of the scraping session.
 
 ## 🚀 Features
