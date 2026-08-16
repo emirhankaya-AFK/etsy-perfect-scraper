@@ -1,5 +1,7 @@
 # Etsy Favori & Koleksiyon Kazıyıcı (Etsy Perfect Scraper)
 
+[English](README.md) | [Türkçe](README_TR.md)
+
 **Playwright** tabanlı çalışan, Etsy kullanıcılarının favori listelerini otomatik olarak arşivleyen, yüksek çözünürlüklü ürün görsellerini indiren ve işlem anını video kaydına alarak portföy analitiği üreten kurumsal bir Python veri kazıma aracıdır.
 
 ## 🚀 Özellikler
