@@ -1,12 +1,10 @@
 # Etsy Perfect Collection Scraper (Etsy Perfect Scraper)
 
-[English](README.md) | [Türkçe](README_TR.md)
+## English
+A robust, premium Etsy scraper powered by **Playwright** that automatically archives user favorites, extracts high-resolution product designs, and generates clean analytics, complete with an automated video recording of the scraping session.
 
-A robust, premium Etsy scaper powered by **Playwright** that automatically archives user favorites, extracts high-resolution product designs, and generates clean analytics, complete with an automated video recording of the scraping session.
-
-## 🚀 Features
-
-- **🌐 Dynamic Playwright Browser Scraper**: Automates modern chromium browsers to render JavaScript-heavy Etsy listing pages seamlessly.
+### 🚀 Features
+- **🌐 Dynamic Playwright Browser Scraper**: Automates modern Chromium browsers to render JavaScript-heavy Etsy listing pages seamlessly.
 - **🖼️ High-Resolution Image Extraction**: Uses custom URL processing heuristics to bypass default thumbnails and fetch ultra-high-resolution original product images (`il_fullxfull`).
 - **📂 Structured Archival Directory System**: Organizes extracted designs into sanitized folders containing:
   - High-res product images (`image_1.jpg`)
@@ -15,31 +13,29 @@ A robust, premium Etsy scaper powered by **Playwright** that automatically archi
 - **📊 Auto-Generated Portfolio Analytics**: Synthesizes collection summaries (`analysis.txt`) and unified listing link lists (`links.txt`).
 - **🎥 Scraping Session Screen Recording**: Records browser interaction dynamically, converting/saving the session as a compressed `process_recording.mp4` using `ffmpeg` (with standard `.webm` fallback).
 
-## 🛠️ Tech Stack
-
+### 🛠️ Tech Stack
 - **Backend**: Python 3.11
 - **Browser Automation**: `Playwright` (Chromium engine)
 - **Video/Media Conversion**: `ffmpeg` (optional fallback to dynamic renaming)
 - **Libraries**: `urllib`, `subprocess`, `os`
 
-## ⚙️ Installation & Setup
-
-1. **Clone the repository**:
+### ⚙️ Installation & Setup
+1. **Clone the repository**  
    ```bash
    git clone <your-repository-url>
    cd etsy-perfect-scraper
    ```
 
-2. **Install dependencies**:
+2. **Install dependencies**  
    ```bash
    pip install playwright
    python -m playwright install chromium
    ```
 
-3. **Configure output & target**:
-   - Edit `scraper.py` to change your target `TARGET_URL` (Etsy favorites/people URL) and directory output paths.
+3. **Configure output & target**  
+   Edit `scraper.py` to change your target `TARGET_URL` (Etsy favorites/people URL) and directory output paths.
 
-4. **Run the scraper**:
+4. **Run the scraper**  
    ```bash
    python scraper.py
    ```
@@ -47,3 +43,9 @@ A robust, premium Etsy scaper powered by **Playwright** that automatically archi
 ---
 
 *Designed and developed with 💙 by Emirhan Kaya.*
+
+## Türkçe
+See `README_TR.md` for the Turkish version.
+
+## Deutsch
+No German translation is currently available.
